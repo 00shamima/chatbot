@@ -1,7 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev/config/
 export default defineConfig({
-  base: "/chatbot/", // This is the crucial line you need to add.
   plugins: [react()],
+  base: "/chatbot/",
+  esbuild: {
+    jsx: 'react-jsx',
+  }
 })
