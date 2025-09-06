@@ -2,7 +2,7 @@
   "name": "gemini-chat",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://shabnam.github.io/chatbot/",
+  "homepage": "https://00shamima.github.io/chatbot/",
   "type": "module",
   "scripts": {
     "dev": "vite",
