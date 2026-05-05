@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import './App.css';
 
-const GEMINI_API_KEY = 'AIzaSyCGdWmvX0LjivMk4O6aMH0ejJ9KeV8itm8';
+const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_KEY;
+
 const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`;
 const STORAGE_KEY = 'gemini_chat_sessions';
 
